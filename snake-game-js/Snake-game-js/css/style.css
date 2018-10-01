@@ -1,0 +1,83 @@
+
+
+
+#grad1 {
+    height: 800px;
+    background-color: #cccccc;
+    background-image: linear-gradient(red, yellow);
+}
+body  {
+    background-image: url("3999528-black-mamba-wallpapers.jpg");
+    background-color: red;
+}
+
+nav {
+    float: right;
+    width:20%;
+    height: 260px; /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 20px;
+}
+aside {
+    float:right;
+    width:16%;
+    height: auto; /* only for demonstration, should be removed */
+    background: #5f5794;
+    padding: 10px;
+}
+
+table, th, td {
+    border: 2px solid black;
+
+}
+th, td {
+    padding: 5px;
+}
+th {
+    border: 2px solid black;
+    text-align: center;
+    padding: 9px;
+}
+
+header {
+    text-align: center;
+    background-color: #666;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+button {
+    background-color: #1a0033;
+    color: white;
+    border: 2px solid yellow;
+    bottom:4;
+    height: 30px;
+    font-size: 12pt;
+    float: left;
+    width: 110px;
+    margin: 20px 0 0 0;
+}
+button:hover {
+    background-color: orange;
+}
+
+button:disabled {
+    background-color: grey;
+}
+
+p {
+    font-family: Helvetica;
+    font-weight: bold;
+    width: 250px;
+    margin: 18px 0 5px 8px;
+    float: left;
+}
+
+.game {
+    margin: 0 auto;
+}
+
+#snakepic {
+    z-index: 1000;
+}
